@@ -2,7 +2,7 @@ const cube = document.querySelector('#cube')
 const adviceId = document.querySelector('#advice_id')
 const text = document.querySelector('.advice_text')
 
-window.onload = getQuote();
+window.onload = getQuote;
 
 cube.addEventListener('click', getQuote)
 
